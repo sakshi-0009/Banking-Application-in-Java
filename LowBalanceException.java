@@ -1,4 +1,6 @@
-// @SuppressWarnings("serial")
+package BankAssignment;
+
+@SuppressWarnings("serial")
 public class LowBalanceException extends Exception{
 
 	public LowBalanceException() {
