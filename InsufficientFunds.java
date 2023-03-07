@@ -1,4 +1,6 @@
-// @SuppressWarnings("serial")
+package BankAssignment;
+
+@SuppressWarnings("serial")
 public class InsufficientFunds extends Exception{
 
 	public InsufficientFunds() {
