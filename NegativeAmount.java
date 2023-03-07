@@ -1,4 +1,6 @@
-// @SuppressWarnings("serial")
+package BankAssignment;
+
+@SuppressWarnings("serial")
 public class NegativeAmount extends Exception{
 
 	public NegativeAmount() {
