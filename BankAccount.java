@@ -1,4 +1,3 @@
-
 package BankAssignment;
 
 import java.io.BufferedReader;
@@ -28,7 +27,6 @@ public class BankAccount {
 		
     }
     
-
     public int getAccNo() {
 		return accNo;
 	}
@@ -41,9 +39,7 @@ public class BankAccount {
 
 	public String getAccType() {
 		return accType;
-	}
-
-	 
+	} 
 
 	public void deposit(float amount) throws NegativeAmount {
         try {
@@ -227,4 +223,3 @@ public class BankAccount {
 		}
 	}
 }
-
